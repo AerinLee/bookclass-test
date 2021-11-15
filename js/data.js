@@ -61,7 +61,7 @@ const qnaList = [
 const infoList = [
   {
     level: '고급반',
-    outgoing: 'high',
+    outgoing: 'low',
     img: '이지잉글리시.png',
     name: "김태연의 <br/>'이지 잉글리시'",
     url: "http://glearningplus.lgcns.com/lgcns/mt/courseinfo/nesreqcourse/nesreqcourse/retrieveOnlineCourseDetailList.dev?coursecode=50024799",
