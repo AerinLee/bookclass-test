@@ -63,49 +63,49 @@ const infoList = [
     level: '초급반',
     outgoing: 'high',
     img: '이지잉글리시.png',
-    name: "김태연의 '이지 잉글리시'",
+    name: "김태연의 <br/>'이지 잉글리시'",
     desc: '최고의 대화문에서 뽑은 상황대화편'
   },
   {
     level: '초급반',
     outgoing: 'low',
     img: '밤10시.png',
-    name: "지나쌤의 '밤 10시, 나를 돌보는 시간'",
+    name: "지나쌤의 <br/>'밤 10시, 나를 돌보는 시간'",
     desc: '매일 밤, 엄마를 위한 한장의 기적'
   },
   {
     level: '중급반',
     outgoing: 'high',
     img: '5분영어회화.png',
-    name: "지나쌤의 '5분 영어회화'",
+    name: "지나쌤의 <br/>'5분 영어회화'",
     desc: '하루 한문장씩, 오늘 배워 내일 쓰는 '
   },
   {
     level: '중급반',
     outgoing: 'middle',
     img: '60세컨즈.jfif',
-    name: "소피반의 '60세컨즈 잉글리쉬'",
+    name: "소피반의 <br/>'60세컨즈 잉글리쉬'",
     desc: '유튜브 구독자 26만 소피반과 함께 부담없이 쉽게 배우는!'
   },
   {
     level: '중급반',
     outgoing: 'low',
     img: '리얼영어회화.png',
-    name: "제나쌤의 '리얼 영어회화'",
+    name: "제나쌤의 <br/>'리얼 영어회화'",
     desc: '50개의 상황으로 떠나는 방구석 어학연수'
   },
   {
     level: '고급반',
     outgoing: 'low',
     img: '스피킹코치.jpg',
-    name: "월터의 '낫 Not 뻔한 영어",
+    name: "월터의 <br/>'낫 Not 뻔한 영어",
     desc: '100개의 상황 어나더 레벨의 영어표현'
   },
   {
     level: '고급반',
     outgoing: 'high',
     img: '기죽지않는.png',
-    name: "소피반의 '미국에서 기죽지 않는 쓸만한 영어'",
+    name: "소피반의 <br/>'미국에서 기죽지 않는 쓸만한 영어'",
     desc: '25만 구독자가 선택한 인싸회화'
   }
 ]
