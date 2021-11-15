@@ -135,7 +135,7 @@ const goResult = () => {
 }
 
 
-const goLearning(){
+function goLearning(){
   window.open(learning_url)
 }
 
