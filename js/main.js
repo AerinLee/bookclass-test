@@ -136,6 +136,7 @@ const goResult = () => {
 
 
 function goLearning(){
+  console.log(learning_url)
   window.open(learning_url)
 }
 
