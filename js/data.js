@@ -64,6 +64,7 @@ const infoList = [
     outgoing: 'high',
     img: '이지잉글리시.png',
     name: "김태연의 <br/>'이지 잉글리시'",
+    url: "http://glearningplus.lgcns.com/lgcns/mt/courseinfo/nesreqcourse/nesreqcourse/retrieveOnlineCourseDetailList.dev?coursecode=50024799",
     desc: `60개국이 넘는 국가들을 직접 발로 뛰고 여행하며 영어를 쓰는 많은 여행자들과 
       다양한 상황에서 나누는 대화와 에피소드들을 모으고 정리하여 
       수많은 상황과 일상생활 속에서 꼭 필요한 내용들을 대화문에 담아 완성된 책입니다. 
@@ -73,6 +74,7 @@ const infoList = [
     level: '초급반',
     outgoing: 'low',
     img: '밤10시.png',
+    url : "http://glearningplus.lgcns.com/lgcns/mt/courseinfo/nesreqcourse/nesreqcourse/retrieveOnlineCourseDetailList.dev?coursecode=50024811",
     name: "지나쌤의 <br/>'밤 10시, 나를 돌보는 시간'",
     desc: `밤 10시, 바쁜 일상과 육아에 지쳐 하루 일과를 마무리하고 쉬고 싶은 시간이기도 
           나의 부족함과 목마름을 채울 수 있는 시간이기도 하다. 
@@ -83,6 +85,7 @@ const infoList = [
     outgoing: 'high',
     img: '5분영어회화.png',
     name: "지나쌤의 <br/>'5분 영어회화'",
+    url : "http://glearningplus.lgcns.com/lgcns/mt/courseinfo/nesreqcourse/nesreqcourse/retrieveOnlineCourseDetailList.dev?coursecode=50024812",
     desc: `‘네이티브가 매일 쓰는 영어 표현’부터 ‘직역하면 안 되는 영어’, ‘콩글리시 바로잡기’까지 
         네이티브가 밥 먹듯이 매일 쓰는 영어회화 표현을 딱 5분만 투자해서 외워 봅시다. 
         지나쌤의 친절한 설명으로 이해도 쏙쏙되어요.`
@@ -92,6 +95,7 @@ const infoList = [
     outgoing: 'high',
     img: '60세컨즈.jfif',
     name: "소피반의 <br/>'60세컨즈 잉글리쉬'",
+    url: "http://glearningplus.lgcns.com/lgcns/mt/courseinfo/nesreqcourse/nesreqcourse/retrieveOnlineCourseDetailList.dev?coursecode=50024813",
     desc: `저자 소피반이 ‘한국인들에게 간단하지만 꼭 필요한 표현으로는 무엇이 있을까?’라는 고민을 통해 만든 콘텐츠를 기반으로
 한국인이 실생활에서 가장 많이 하는 말 100개를 엄선하여 영어로 서슴없이 말할 수 있도록 학습하는 도서입니다. `
   },
@@ -100,6 +104,7 @@ const infoList = [
     outgoing: 'low',
     img: '리얼영어회화.png',
     name: "제나쌤의 <br/>'리얼 영어회화'",
+    url : "http://glearningplus.lgcns.com/lgcns/mt/courseinfo/nesreqcourse/nesreqcourse/retrieveOnlineCourseDetailList.dev?coursecode=50024814",
     desc: `생활 밀착형 50개의 상황으로 떠나는 방구석 어학 연수로 
         어디에 가든, 누굴 만나든 통하는 ‘진짜’ 영어 대화가 가능해집니다.
         당장 외국에 나가지 않더라도 어디서 누굴 만나도 바로 쓸 수 있는 생활 초 밀착형 표현들을 익혀 
@@ -110,6 +115,7 @@ const infoList = [
     outgoing: 'middle',
     img: '스피킹코치.jpg',
     name: "월터의 <br/>'낫 Not 뻔한 영어",
+    url: "http://glearningplus.lgcns.com/lgcns/mt/courseinfo/nesreqcourse/nesreqcourse/retrieveOnlineCourseDetailList.dev?coursecode=50024816",
     desc: `우리가 실생활에서 뻔하게 마주하는 상황 속 누구나 다 아는 표현 말고 어나더 레벨의 영어 회화 표현을 담은 책입니다. 
           Native의 입과 생각을 빌려 매일 똑같이 쓰는 지루한 표현에서 탈피해 봅시다.`
   },
@@ -118,6 +124,7 @@ const infoList = [
     outgoing: 'high',
     img: '기죽지않는.png',
     name: "소피반의 <br/>'미국에서 기죽지 않는 쓸만한 영어'",
+    url: "http://glearningplus.lgcns.com/lgcns/mt/courseinfo/nesreqcourse/nesreqcourse/retrieveOnlineCourseDetailList.dev?coursecode=50024817",
     desc: `20만 명에 가까운 구독자를 보유한 영어 교육 유튜브 채널 Sophie Ban에서 현재 인기리에 연재 중인 ‘쓸만한 영어’를 그대로 수록한 도서로서,
  수많은 구독자들이 정말 ‘배울 만한 가치가 있는 영어 학습 콘텐츠’로서 선택한 검증된 내용의 영어 학습서입니다. 
  저자가 미국에서 직접 온몸으로 부딪히며 익힌 제대로 써먹을 수 있는 영어, 즉 ‘미국에서 정말 통할 수 있는 제대로 된 100% 현실 영어’를 배울 수 있습니다.`
