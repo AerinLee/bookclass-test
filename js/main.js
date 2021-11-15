@@ -133,6 +133,11 @@ const goResult = () => {
 
 }
 
+
+const goLearning = () => {
+  window.open(infoList[grade].url)
+}
+
 const end = () => {
   qna.style.animation = '';
   const interval = setInterval(() => {
