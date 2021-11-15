@@ -115,7 +115,7 @@ const goResult = () => {
   const res_img_div = document.querySelector('.art');
   const animal = document.querySelector('.result');
   const desc = document.querySelector('.res');
-  const learning_url = infoList[grade].url;
+  let learning_url = infoList[grade].url;
 
   // pin.style.marginLeft = infoList[grade].mLeft;
   res_img.src = img_url;
