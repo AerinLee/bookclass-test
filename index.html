@@ -1,143 +1,18 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
 
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="나에게 딱 맞는 북클래스">
-  <meta property="og:description" content="어떤 북클래스가 나에게 맞을까?">
-  <meta property="og:image" content="img/title_img.jpg">
-  <meta property="og:url" content="https://aerinlee.github.io/bookclass-test/">
+	<title>Svelte app</title>
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
 
-  <link rel="shortcut icon" type="text/css" href="img/favicon.png">
-  <link rel="appel-touch-icon-precomposed" href="img/favicon.png">
-  <title>
-    나에게 딱 맞는 북클래스
-  </title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/animation.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/welcome.css">
-  <link rel="stylesheet" href="css/qna.css">
-  <link rel="stylesheet" href="css/calc.css">
-  <link rel="stylesheet" href="css/result.css">
-  <!--[if lt ie 11]> 
-    <script>
-      alert('IE 11 미만 브라우저에서는 정상적으로 동작하지 않습니다.\n다른 브라우저(크롬, 파이어폭스 등)를 이용해주세요.');
-    </script>
-  <![endif]-->
+	<script defer src='/build/bundle.js'></script>
 </head>
 
 <body>
-  <div id="wrap">
-    <section id="welcome" class="container">
-      <div id="title-box">
-        <h1 class="title">
-          나에게 딱맞는<br>
-          BOOKCLASS 알아보기
-        </h1>
-        <h3 class="sec-tit">
-          간단한 퀴즈로<br>
-          알아보는 내 공부스타일
-        </h3>
-        <span class="time-logo"></span>
-        <div>소요 시간 : 3분 내외</div>
-      </div>
-      <hr class="w-line">
-      <p class="w-line">
-        <span id="p-tit">이 테스트로 당신은...</span><br>
-        AI Tutor에서 새로 출시한 '북클래스' 중 어떤 클래스가 알맞은지 알 수 있습니다.<br>
-        공부 스타일과 간단한 퀴즈로 알아보는 테스트 시작해볼까요?
-      </p>
-      <hr class="w-line">
-      <div class="start-wrap">
-        <button class="start">시 작</button>
-      </div>
-    </section>
-    <section id="qna" class="container">
-      <div class="status-bar">
-        <div class="status"></div>
-      </div>
-      <div class="q box"></div>
-      <div class="answer"></div>
-    </section>
-    <section id="calc">
-      <div class="calc-bar">
-        CALCULATING
-        <div class="calc"></div>
-      </div>
-      <p class="wait">잠시 기다려주세요...</p>
-    </section>
-    <section id="result" class="container">
-      <div id="score-box">
-        <div class="p title">당신에게 딱 맞는 북클래스는...</div>
-      </div>
-      <div id="desc-box">
-        <div class="art"></div>
-        <div class="result title"></div>
-        <div class="res desc"></div>
-        <!-- <span class="go-artist highlight" onclick=javascript:goArtist()>
-          추천이 마음에 드시나요?
-        </span> -->
-      </div>
-      <hr>
-      <p>공유하기</p>
-      <div class="hash">#MissionEnglish #북클래스 #영어회화</div>
-      <!-- <div id="share-box">
-        <a onclick=javascript:tw() target="_blank" alt="Share on Twitter" title="트위터에 공유하기">
-          <span class="tw"></span>
-        </a>
-        <a onclick=javascript:fb() target="_blank" alt="Share on Facebook" title="페이스북에 공유하기">
-          <span class="fb"></span>
-        </a>
-        <a onclick=javascript:nv() target="_blank" alt="Share on Naver" title="네이버에 공유하기">
-          <span class="nv"></span>
-        </a>
-        <a onclick=javascript:band() target="_blank" alt="Share on Naver Band" title="네이버 밴드에 공유하기">
-          <span class="band"></span>
-        </a>
-      </div> -->
-      <button onclick=javascript:copy() class="btn">링크 복사하기</button>
-      <hr>
-      <div class="caution">
-        <p>
-          Youtube 명강사가 만든 브랜드 섹션 북클래스!<br>
-          이젠 유튜브로 듣지만 말고 직접 말해보아요.<br>
-          370개의 상황대화는 보너스!!<br><br>
-          지금 바로 신청하세요~ (BBS 참고)
-          <br><br>
-        </p>
-<!--         <button onclick="() => window.open(infoList[grade].url)" class="btn">신청하러 가기</button> -->
-      </div>
-      <!-- <div class="caution">
-        <p>
-          이 테스트는 해외 웹사이트에 게재된 이미지 테스트를 한국어로 번역한 것입니다.<br>(원본 아래 참고)<br>
-          <span class="warning">결과 페이지에 나오는 그림의 상업적 이용을 금지합니다.</span><br>
-          해당 이미지의 저작권은 작가에게 있습니다.<br>
-          <a href="https://www.instagram.com/gyeoly27/" target="_blank" title="작가 인스타그램">그림 작가</a>와 연락하시려면
-          <a href="mailto:sallycool27@naver.com" target="_blank" title="작가에게 이메일하기">이메일</a>을 부탁드립니다.<br>
-          테스트와 공유는 자유롭게 하시면 됩니다.<br>
-          <a href="https://dev-dain.tistory.com" target="_blank" title="개발자 블로그">개발자</a>와 연락하시려면
-          <a href="mailto:dev.dain.k@gmail.com?subject=이미지테스트 페이지 문의합니다" target="_blank" title="개발자에게 이메일하기">이메일</a>을
-          부탁드립니다.<br>
-          고맙습니다!
-        </p>
-      </div> -->
-      <hr>
-      <!-- <button class="go-origin btn">
-        <a href="https://www.personalityquiz.net/profiles/impressions.html" target="_blank" title="출처 영문 웹사이트">
-          출처 영문 웹사이트 보기
-        </a>
-      </button> -->
-    </section>
-  </div>
-  <script src="js/data.js"></script>
-  <script src="js/main.js"></script>
 </body>
-
 </html>
